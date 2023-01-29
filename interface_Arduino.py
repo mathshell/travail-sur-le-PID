@@ -1,8 +1,8 @@
-import serial 
+from serial import *
 import tkinter
 #from pyfirmata import Arduino
 
-serie=serial.Serial('COM4',9600)
+serie=Serial('COM4',9600)
 #broche=Arduino('COM4', 13)
 #pin13=serie.get_pin('d:13:o')
 
